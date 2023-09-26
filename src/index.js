@@ -18,7 +18,7 @@ import Sdata from "./Sdata";
 ReactDOM.render(
   <>
     <h1 className="heading_style"> List of Top Netflix Web Series </h1>
-    {Sdata.map(function ncard(val) {
+    {Sdata.map((val) => {
       return (
         <Card
           imgsrc={val.imgsrc}
